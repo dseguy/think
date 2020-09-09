@@ -10,3 +10,4 @@ jobs:
       uses: docker://exakat/exakat-ga
       with:
         ignore_rules: 'Structures/ShouldMakeTernary,Functions/UsesDefaultArguments'
+        ignore_dirs: '/thinkphp/tests/'
